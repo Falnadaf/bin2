@@ -1,0 +1,9 @@
+- Before running the project, make sure that the nodejs and mongodb compass is installed on your system
+- After that, I have provided the two zip files to you, put them in one directory
+
+Folder
+ - client
+ - server
+
+- After that checkout on server first run "npm run install' and run the command 'npm run start:dev', server will be started
+- Now, check-out to the client directory, run first 'npm run install' to install the node modules and then run 'npm run dev'

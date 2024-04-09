@@ -1,0 +1,42 @@
+@startuml BinariumDepot
+
+class Product {
+  -_id: string
+  -name: string
+  -manufacturer: string
+  -manufacturing_year: string
+  -store: {}
+  -generation: string
+  -images: [{}]
+  -barcode: string
+  -condition: string
+}
+
+class Store {
+  -_id: string
+  -store_name: string
+  -image: {}
+  -products: Product[]
+}
+
+class ProductService {
+  +addProduct()
+  +getProduct()
+  +getProductByStore()
+  +getAllProducts()
+  +updateProduct()
+  +deleteProduct()
+}
+
+class StoreService {
+  +getStoreById()
+  +getAllStores()
+  +addStore()
+  +deleteStore()
+}
+
+Product --> "1" Store : contains
+StoreService ..> Store : manages
+ProductService ..> Product : manages
+
+@enduml

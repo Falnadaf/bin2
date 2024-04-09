@@ -1,0 +1,28 @@
+
+> server@0.0.1 start
+> nest start
+
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +35ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mStoreModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductController {/api/product}:[39m[38;5;3m +30ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/add, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/get, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/store, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/get-all, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/update/:_id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/product/delete/:_id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mStoreController {/api/store}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/get-all, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/get, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/add, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/store/delete/:_id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 58576  - [39m27/02/2024, 18:19:16 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+Server running on http://localhost:8080

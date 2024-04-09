@@ -1,0 +1,22 @@
+@startuml BinariumDepotERDiagram
+
+entity "Product" as Product {
+  _id : string
+  name : string
+  manufacturer : string
+  manufacturing_year : string
+  generation : string
+  barcode : string
+  condition : string
+  -- Omitted attributes for brevity
+}
+
+entity "Store" as Store {
+  _id : string
+  store_name : string
+  -- Omitted attributes for brevity
+}
+
+Product }-- Store : contains
+
+@enduml

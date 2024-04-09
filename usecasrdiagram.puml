@@ -1,0 +1,24 @@
+@startuml BinariumDepotUseCaseDiagram
+left to right direction
+skinparam packageStyle rectangle
+
+actor Client
+actor StoreManager
+
+rectangle BinariumDepot {
+    usecase (Add Product) as UC1
+    usecase (View Product) as UC2
+    usecase (Delete Product) as UC3
+    usecase (Update Product) as UC4
+    usecase (Add Store) as UC5
+    usecase (View Store) as UC6
+
+    Client --> UC1
+    Client --> UC2
+    StoreManager --> UC3
+    StoreManager --> UC4
+    StoreManager --> UC5
+    StoreManager --> UC6
+}
+
+@enduml
