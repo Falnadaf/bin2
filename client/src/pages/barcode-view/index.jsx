@@ -57,7 +57,8 @@ const Index = () => {
           {dashboardContent.map((item, index) =>
             item.barcodeType === "read" && isItemAdded ? (
               <div
-                onClick={() => handleSetBarcodeTypeClick(item.barcodeType)}
+                //onClick={() => handleSetBarcodeTypeClick(item.barcodeType)}
+                onClick={() => navigate("/scan_barcode")} 
                 key={index}
                 className="bg-emerald-50 p-5 mx-10 transform rounded-xl shadow-xl transition duration-300 hover:scale-105 flex flex-col items-center max-[486px]:mb-5 cursor-pointer"
               >
